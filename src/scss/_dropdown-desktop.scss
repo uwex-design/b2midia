@@ -3,19 +3,19 @@
 // Dropdown do menu - Desktop
 .nav_menu_link {
   &.is-dropdown {
-    padding-right: 20px;
+    padding-right: 1.8rem;
     position: relative;
 
     &::after {
       content: "";
       display: block;
       position: absolute;
-      right: 0;
+      right: 12px;
       top: 50%;
       transform: translateY(-50%);
       width: 10px;
       height: 10px;
-      background: url("data:image/svg+xml,%3Csvg width='8' height='8' viewBox='0 0 8 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7.19649 2.05351C7.58115 2.43818 7.58115 3.06185 7.19649 3.44651L4.69649 5.94651C4.31182 6.33118 3.68815 6.33118 3.30349 5.94651L0.803485 3.44651C0.418819 3.06185 0.418819 2.43818 0.803485 2.05351C1.18815 1.66885 1.81182 1.66885 2.19649 2.05351L3.99999 3.85701L5.80349 2.05351C6.18815 1.66885 6.81182 1.66885 7.19649 2.05351Z' fill='%2340A55A'/%3E%3C/svg%3E") no-repeat center center;
+      background: url("https://cdn.prod.website-files.com/6a2ab66cf16ced97322e197e/6a2b175b10b9c251dece2047_arrow.svg") no-repeat center center;
       background-size: contain;
     }
   }
