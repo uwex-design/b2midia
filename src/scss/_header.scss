@@ -5,7 +5,7 @@
   transition: all 0.3s;
 }
 #js-header.fixed-menu {
-  background: $primary;
+  background: $black;
   height: 80px;
 }
 
@@ -19,6 +19,6 @@
 }
 
 #js-header.dropdown-open {
-  background-color: $primary;
+  background-color: $black;
 }
 

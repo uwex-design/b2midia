@@ -3,10 +3,11 @@
 @use "sass:map";
 
 // Cores — preencher com as cores do projeto
-$primary: #000000;
+$black: #000000;
 $muted-foreground: #666666;
 $white: #ffffff;
 $transition: all 0.3s ease;
+$gradient-green: linear-gradient(87deg, #5CCE79 1.47%, #A6FFBD 97.81%);
 
 // Breakpoints
 $breakpoint: (

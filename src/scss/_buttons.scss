@@ -3,4 +3,25 @@
 @use "variables" as *;
 
 // ===== BOTÕES =====
-// Adicionar estilos de botões aqui
+.button {
+  &.is-outline {
+    transition: all 0.4s ease;
+
+    .button_text,
+    .button_icon-wrap {
+      transition: all 0.4s ease;
+    }
+
+    &:hover {
+      background: $gradient-green;
+
+      .button_text {
+        color: $black;
+      }
+
+      .button_icon-wrap {
+        background: $white;
+      }
+    }
+  }
+}

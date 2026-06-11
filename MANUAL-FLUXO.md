@@ -35,7 +35,7 @@ git push origin main
 ```
 
 ### 7. Aguarde
-- **1 a 2 minutos** – o jsDelivr atualiza o cache automaticamente
+- **1 a 2 minutos** – o GitHub Pages atualiza automaticamente após o push
 - Recarregue o site para ver as alterações
 
 ---
@@ -63,16 +63,21 @@ git push origin main
 
 ## Links usados no Webflow
 
-**Footer Code (antes do `</body>`):**
+**Custom Code → Head (Project Settings):**
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/uwex-design/b2midia@main/dist/css/main.css">
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/uwex-design/b2midia@main/dist/js/bundle.js"></script>
+<link rel="stylesheet" href="https://uwex-design.github.io/b2midia/dist/css/main.css">
 ```
 
-**Por página (em cada página específica):**
+**Custom Code → Footer (Project Settings):**
 ```html
-<script src="https://cdn.jsdelivr.net/gh/uwex-design/b2midia@main/dist/js/pages/home.min.js"></script>
+<!-- Custom js -->
+<script src="https://uwex-design.github.io/b2midia/dist/js/bundle.js"></script>
+```
+
+**Por página — Footer (Page Settings → Custom Code):**
+```html
+<!-- Custom js -->
+<script src="https://uwex-design.github.io/b2midia/dist/js/pages/home.min.js"></script>
 ```
 
 ---
@@ -98,4 +103,4 @@ git push origin main
 
 **CSS não atualizou no site?**
 - Confirme que rodou `npx gulp build` após editar
-- Aguarde 2 minutos após o push (cache do jsDelivr)
+- Aguarde 1-2 minutos após o push (GitHub Pages leva alguns segundos para publicar)
