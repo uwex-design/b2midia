@@ -1,9 +1,11 @@
-// Baoba - Main
+// B2Midia - Main
 // ===== VARIÁVEIS =====
 @use "variables" as *;
 
 // ===== IMPORTS DOS MÓDULOS =====
 @use "header";
+@use "buttons";
 @use "dropdown-desktop";
 @use "dropdown-mobile";
 @use "newsletter";
+@use "filters";

@@ -1,4 +1,4 @@
-# Baobá
+# B2 Mídia
 
 Projeto de arquivos CSS e JavaScript para integração com Webflow.
 
@@ -9,12 +9,9 @@ Este projeto foi desenvolvido pela **UWEX Design**, agência especializada em de
 ## Tecnologias Utilizadas
 
 - Webflow
-- HTML5
 - CSS3 / SCSS
 - JavaScript
 - Swiper
-- GSAP
-- Lenis
 - Gulp
 
 ## Fluxo de Trabalho

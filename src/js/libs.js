@@ -1,11 +1,9 @@
-// Baoba - Bibliotecas e Utilitários
+// B2Midia - Bibliotecas e Utilitários
 // Arquivo: src/js/libs.js
 
-// Funções utilitárias globais
-window.Baoba = window.Baoba || {};
+window.B2Midia = window.B2Midia || {};
 
-// Utilitário para debounce
-Baoba.debounce = function(func, wait) {
+B2Midia.debounce = function(func, wait) {
   let timeout;
   return function executedFunction(...args) {
     const later = () => {
@@ -17,8 +15,7 @@ Baoba.debounce = function(func, wait) {
   };
 };
 
-// Utilitário para throttle
-Baoba.throttle = function(func, limit) {
+B2Midia.throttle = function(func, limit) {
   let inThrottle;
   return function() {
     const args = arguments;
@@ -31,10 +28,9 @@ Baoba.throttle = function(func, limit) {
   };
 };
 
-// Função para lazy loading
-Baoba.lazyLoad = function() {
+B2Midia.lazyLoad = function() {
   const images = document.querySelectorAll('img[data-src]');
-  
+
   const imageObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -49,8 +45,7 @@ Baoba.lazyLoad = function() {
   images.forEach(img => imageObserver.observe(img));
 };
 
-// Função para smooth scroll
-Baoba.smoothScroll = function(target) {
+B2Midia.smoothScroll = function(target) {
   const element = document.querySelector(target);
   if (element) {
     element.scrollIntoView({
@@ -59,5 +54,3 @@ Baoba.smoothScroll = function(target) {
     });
   }
 };
-
-console.log('Baoba - Bibliotecas carregadas!');

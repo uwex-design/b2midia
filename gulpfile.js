@@ -1,5 +1,5 @@
-// Baoba - Gulpfile para Build Process
-// Modelo: blackhaus (UWEX Design)
+// B2Midia - Gulpfile para Build Process
+// UWEX Design
 
 const gulp = require('gulp');
 const concat = require('gulp-concat');

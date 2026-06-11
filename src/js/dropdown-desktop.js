@@ -1,5 +1,5 @@
 /**
- * Baoba - Dropdown Desktop
+ * B2Midia - Dropdown Desktop
  * Arquivo: src/js/dropdown-desktop.js
  */
 // Dropdown Desktop

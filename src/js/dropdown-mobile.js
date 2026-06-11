@@ -1,5 +1,5 @@
 /**
- * Baoba - Dropdown Mobile
+ * B2Midia - Dropdown Mobile
  * Arquivo: src/js/dropdown-mobile.js
  */
 

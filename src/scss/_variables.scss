@@ -1,20 +1,18 @@
-// Baoba - Variáveis SCSS
+// B2Midia - Variáveis SCSS
 // Arquivo: src/scss/_variables.scss
 @use "sass:map";
 
-// Cores
-$primary: #152b4a;
-$muted-foreground: #506178;
+// Cores — preencher com as cores do projeto
+$primary: #000000;
+$muted-foreground: #666666;
 $white: #ffffff;
 $transition: all 0.3s ease;
 
-// Breakpoints otimizados (apenas 3)
+// Breakpoints
 $breakpoint: (
   "desktop": 1280px,
-  // Desktops e laptops
   "tablet": 1025px,
-  // Tablets
-  "mobile": 640px // Smartphones ,
+  "mobile": 640px,
 );
 
 // Mixin responsivo

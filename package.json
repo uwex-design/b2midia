@@ -1,7 +1,7 @@
 {
-  "name": "baoba",
+  "name": "b2midia",
   "version": "1.0.0",
-  "description": "Projeto Baoba - Arquivos CSS e JS para integração com Webflow",
+  "description": "B2 Mídia - Arquivos CSS e JS para integração com Webflow",
   "main": "dist/js/bundle.js",
   "scripts": {
     "build": "gulp build",
@@ -14,7 +14,7 @@
     "css",
     "javascript",
     "scss",
-    "baoba"
+    "b2midia"
   ],
   "author": "UWEX Design",
   "license": "MIT",
@@ -28,13 +28,9 @@
     "gulp-clean-css": "^4.3.0",
     "sass": "^1.89.0"
   },
-  "dependencies": {
-    "gsap": "^3.12.2",
-    "lenis": "^1.0.0"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/uwex-design/baoba.git"
+    "url": "https://github.com/uwex-design/b2midia.git"
   },
-  "homepage": "https://uwex-design.github.io/baoba/"
+  "homepage": "https://uwex-design.github.io/b2midia/"
 }

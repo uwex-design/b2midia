@@ -1,4 +1,4 @@
-# Baoba – Manual de Fluxo de Trabalho
+# B2Midia – Manual de Fluxo de Trabalho
 
 Guia rápido para editar, compilar e publicar alterações no projeto.
 
@@ -57,16 +57,22 @@ git push origin main
 |--------------------|---------------------|
 | `src/scss/*.scss`  | `dist/css/main.css` |
 | `src/js/*.js`      | `dist/js/bundle.js` |
+| `src/js/pages/*.js`| `dist/js/pages/*.min.js` |
 
 ---
 
 ## Links usados no Webflow
 
-**Footer Code:**
+**Footer Code (antes do `</body>`):**
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/uwex-design/baoba@main/dist/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/uwex-design/b2midia@main/dist/css/main.css">
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/uwex-design/baoba@main/dist/js/bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/uwex-design/b2midia@main/dist/js/bundle.js"></script>
+```
+
+**Por página (em cada página específica):**
+```html
+<script src="https://cdn.jsdelivr.net/gh/uwex-design/b2midia@main/dist/js/pages/home.min.js"></script>
 ```
 
 ---
