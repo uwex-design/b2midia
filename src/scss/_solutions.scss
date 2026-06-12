@@ -1,0 +1,50 @@
+// ============================================================
+// Section Solutions — Tabs + Swiper
+// ============================================================
+
+// Marker do tab ativo
+.solutions_tabs-nav {
+  .swiper-slide {
+    position: relative;
+
+    &.swiper-slide-thumb-active {
+      border-bottom: 1px solid transparent !important;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -33px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 100%;
+        background: url("https://cdn.prod.website-files.com/6a2ab66cf16ced97322e197e/6a2c4e7eda4371107a862436_marker-tab.webp")
+          no-repeat center center;
+        background-size: contain;
+      }
+    }
+  }
+}
+
+// Paginação
+.solutions_tabs-pagination {
+  padding: 20px 16px;
+
+  .swiper-pagination-bullet {
+    min-width: 7px;
+    width: 7px;
+    height: 7px;
+    background: #5cce79;
+    opacity: 1;
+    border-radius: 3.5px;
+    transition: all 0.3s ease;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 38px;
+    height: 7px;
+    background: #5cce79;
+    border-radius: 3.5px;
+    opacity: 1;
+  }
+}
