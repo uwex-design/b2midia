@@ -1,4 +1,4 @@
-// Arquivo: src/scss/header.scss
+// Arquivo: src/scss/_header.scss
 @use "variables" as *;
 // Header fixo
 #js-header {
@@ -21,4 +21,5 @@
 #js-header.dropdown-open {
   background-color: $black;
 }
+
 
